@@ -72,6 +72,16 @@ body {
 }
 #box4 > img{ width: 100%;}
 
+#box04{
+    position: absolute;
+    color: #f4faf5;
+    font-family: 'SEBANG_Gothic_Bold';
+    left: 16%;
+    top: 970px;
+    line-height: 0.8;
+    font-size: 100%;
+}        
+
 #box5{
     display: block;
     position: absolute;
