@@ -96,11 +96,20 @@ body {
 }
 #box5 > img{ width: 100%;}
 
+#box05{
+    position: absolute;
+    color: #f4faf5;
+    font-family: 'SEBANG_Gothic_Bold';
+    left: 52%;
+    top: 1267px;
+    font-size: 100%;
+}        
+
 #box6{
     display: block;
     position: absolute;
     padding: 10px;
-    top: 1300px;
+    top: 1340px;
     left: 50%;
     background-color: #f4faf5;
     overflow: visible;
@@ -110,11 +119,20 @@ body {
 }
 #box6 > img{ width: 100%;}
 
+#box06{
+    position: absolute;
+    color: #f4faf5;
+    font-family: 'SEBANG_Gothic_Bold';
+    left: 52%;
+    top: 1810px;
+    font-size: 100%;
+}       
+
 #box7{
     display: block;
     position: absolute;
     padding: 10px;
-    top: 1800px;
+    top: 1890px;
     left: 50%;
     background-color: #f4faf5;
     overflow: visible;
@@ -123,3 +141,44 @@ body {
     text-align: center;
 }
 #box7 > img{ width: 100%;}
+
+#box07{
+    position: absolute;
+    color: #f4faf5;
+    font-family: 'SEBANG_Gothic_Bold';
+    left: 52%;
+    top: 2360px;
+    font-size: 100%;
+}       
+#box8{
+    position: absolute;
+    color: #f4faf5;
+    font-family: 'SEBANG_Gothic_Bold';
+    left: 52%;
+    top: 2410px;
+    line-height: 0.8;
+    font-size: 100%;
+}    
+#box9{
+    display: block;
+    position: absolute;
+    padding: 10px;
+    top: 2500px;
+    left: 16%;
+    background-color: #f4faf5;
+    overflow: visible;
+    width: 25%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+#box9 > img{ width: 100%;}
+
+#box09{
+    position: absolute;
+    color: #f4faf5;
+    font-family: 'SEBANG_Gothic_Bold';
+    left: 52%;
+    top: 3095px;
+    line-height: 0.8;
+    font-size: 100%;
+}  
