@@ -320,12 +320,22 @@ body {
   }
 #box18 > img{ width: 100%;}
 
+#box018{
+    position: absolute;
+    color: #f4faf5;
+    font-family: 'SEBANG_Gothic_Bold';
+    left: 55%;
+    top: 4940px;
+    line-height: 0.8;
+    font-size: 100%;
+}  
+
 #box19{
     position: relative;
     color: #f4faf5;
-    text-align: left;
+    text-align: center;
     font-family: 'SEBANG_Gothic_Bold';
     margin: 2630px 30px 80px 30px;
-    border-bottom: 3px solid #e4f3e6;
+    border-top: 3px solid #e4f3e6;
     font-size:140%
 }
