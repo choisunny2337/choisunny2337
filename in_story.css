@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Amarante&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR');
+@font-face {
+    font-family: 'SBAggroB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+h1{
+    margin: 0; padding: 0;
+}
+header {
+    position: relative;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    height: 200px;
+    margin: 0 auto;
+    z-index: 1;
+}
+main {
+    position: relative;
+    width: 100%;
+    top: 0;
+    margin: 10% auto 35%;
+}
+footer {
+    position: relative;
+    width: 100%;
+    margin: -30% auto;
+    height: 30%;
+    background-color: aqua;
+}
+
+body {
+    margin: 0; padding: 0;
+    font-family: 'SBAggroB';
+    animation-name: test-animation;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes test-animation {
+    0% {background-colo: #ffffff; }
+    33% { background-color: #fffeea }
+    66% { background-color: rgb(255, 255, 255); }
+    100% { background-color: #f9f1ff }
+}
+
+a {
+    text-decoration: none;
+    color: #254d33d7;
+}
+a:hover {
+    color: #e4ffeed7;
+}
+#mainmenu {
+    position: fixed;
+    list-style: none;
+    text-align: center;
+    width: 100%;
+    top: 13%;
+    left: 36.8%;
+    color: #254d33d7;
+}
+
+#mainmenu > li {
+    float: left;
+    padding: 8px;
+    margin: 0 4px;
+    background-color: #ffffffb3;
+}
+
+#item2sub {
+    overflow: hidden;
+    height: 0px;
+    transition: 0.5s;
+}
+#item2:hover > #item2sub {
+    height: 245px;
+}
+.submenu {
+    list-style: none;
+    margin: 0;
+    padding:10px;
+}
+.submenu > li{
+    list-style: none;
+    margin: 0;
+    padding:5px;
+}
+
+#egg{
+    position: fixed;
+    text-align: center;
+    width: 100% ;
+    top: 2%;
+    left: 0%;
+}
+#egg > img {width: 7em;}
+
+#top {
+    display: block;
+    position: static;
+    text-align: center;
+    width: 100%;
+    left: 0%;
+    top: 40%;
+    height: 230%;
+    background-image: linear-gradient(#408558d7, rgba(255, 255, 255, 0));
+    z-index: -1000;
+}
