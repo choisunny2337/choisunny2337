@@ -363,8 +363,8 @@ a:hover {
     #title {
         text-align: center;
         top: 30%;
-        width: 100%;
-        left: 15%;
+        width: 50%;
+        left: 3%;
         font-size: 2em;
     }  
 }
