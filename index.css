@@ -348,7 +348,7 @@ a:hover {
     } 
 }
 @media screen and (max-width: 520px) {
-    main {
+    #title {
         top: 30%;
         width: 95%;
     
