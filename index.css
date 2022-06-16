@@ -312,13 +312,12 @@ a:hover {
         padding: 5px 0px;
     }
 }
-
-@media screen and (max-width: 200px) {
+@media screen and (max-width: 520px) {
     #mainmenu {
         text-align: left;
-        font-size: 7px;
+        font-size: 4px;
         padding: 8px;
-        width: 15%;
+        width: 10%;
         left: -3.1%;
     } 
     #item2sub {
@@ -348,14 +347,13 @@ a:hover {
     
     } 
 }
-@media screen and (max-width: 200px) {
+@media screen and (max-width: 520px) {
     main {
-        top: 5%;
+        top: 10%;
         margin-bottom: 60%;
-    
+        width: 70%;
     } 
 }
-
 
 
   @media screen and (max-width: 960px) {
@@ -368,13 +366,10 @@ a:hover {
     }
 }
 
-@media screen and (max-width: 200px) {
+@media screen and (max-width: 520px) {
     .item-container {
-        width: 80%;
+        width: 100%;
         padding-top: 100%;
     } 
-    #social {
-        display: none;
-    }
 } 
 
