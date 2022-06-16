@@ -340,21 +340,7 @@ a:hover {
     }
 }
 
-@media screen and (max-width: 960px) {
-   #title {
-        top: 30%;
-        width: 95%;
-    
-    } 
-}
-@media screen and (max-width: 520px) {
-    #title {
-        top: 30%;
-        width: 95%;
-        font-size: 2em;
-    
-    } 
-}
+
 
 @media screen and (max-width: 960px) {
     main {
@@ -362,13 +348,24 @@ a:hover {
         margin-bottom: 60%;
     
     } 
+    #title {
+        top: 30%;
+        width: 95%;
+    
+    } 
 }
 @media screen and (max-width: 520px) {
     main {
         top: 10%;
         margin-bottom: 60%;
     
-    } 
+    }
+    #title {
+        top: 30%;
+        width: 10%;
+        font-size: 2em;
+    
+    }  
 }
 
 
