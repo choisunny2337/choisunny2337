@@ -17,22 +17,20 @@ header {
     width: 100%;
     top: 0%;
     left: 0%;
-    height: 200px;
+    height: 150px;
     margin: 0 auto;
-    z-index: 1;
 }
 main {
     position: relative;
     width: 100%;
     top: 0;
-    margin: 10% auto 35%;
+    margin: 0% auto 30%;
 }
 footer {
     position: relative;
     width: 100%;
-    margin: -30% auto;
-    height: 30%;
-    background-color: aqua;
+    margin: 0% auto;
+    height: 20%;
 }
 
 body {
@@ -59,13 +57,14 @@ a:hover {
     color: #e4ffeed7;
 }
 #mainmenu {
-    position: fixed;
+    position: absolute;
     list-style: none;
     text-align: center;
-    width: 100%;
-    top: 13%;
+    width: 30%;
+    top: 70%;
     left: 36.8%;
     color: #254d33d7;
+    z-index: 2;
 }
 
 #mainmenu > li {
@@ -81,7 +80,7 @@ a:hover {
     transition: 0.5s;
 }
 #item2:hover > #item2sub {
-    height: 245px;
+    height: 275px;
 }
 .submenu {
     list-style: none;
@@ -95,11 +94,12 @@ a:hover {
 }
 
 #egg{
-    position: fixed;
+    position: absolute;
     text-align: center;
     width: 100% ;
-    top: 2%;
+    top: 12%;
     left: 0%;
+    z-index: 1;
 }
 #egg > img {width: 7em;}
 
@@ -114,3 +114,79 @@ a:hover {
     background-image: linear-gradient(#408558d7, rgba(255, 255, 255, 0));
     z-index: -1000;
 }
+#img-grid {
+    display: inline;
+    flex-wrap: wrap;
+    position: relative;
+    text-align: center;
+    width: 80%;
+    left: 11.8%;
+    margin-left: 80px;
+}
+
+#img-grid > img {
+    position: relative;
+    top: 290px;
+    width: 30%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 3;
+}
+
+#footer{
+    position: static;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 3%;
+}
+
+
+@media screen and (max-width: 960px) {
+    #mainmenu {
+        text-align: center;
+        font-size: 4px;
+        padding: 8px;
+        width: 50%;
+        top: 70%;
+        left: 25%;
+    } 
+    #item2sub {
+        overflow: hidden;
+        height: 0px;
+        transition: 0.5s;
+    }
+    #item2:hover > #item2sub {
+        height: 210px;
+    }
+    .submenu {
+        list-style: none;
+        margin: 0;
+        padding:10px;
+    }
+    .submenu > li{
+        list-style: none;
+        margin: 0;
+        padding: 5px 0px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 960px) {
+    main {
+        top: -7%;
+        margin: 0% auto 70%;
+    } 
+}
+
+
+@media screen and (max-width: 960px) {
+    #img-grid > img{
+        width: 70%;
+        left: -12%;
+        margin-bottom: 80px;
+}
+    } 
+    #social {
+        display: none;
+    }
