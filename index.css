@@ -326,7 +326,7 @@ a:hover {
         transition: 0.5s;
     }
     #item2:hover > #item2sub {
-        height: 190px;
+        height: 200px;
     } 
     .submenu {
         list-style: none;
@@ -361,6 +361,7 @@ a:hover {
     
     }
     #title {
+        text-align: center;
         top: 30%;
         width: 50%;
         font-size: 3.2em;
