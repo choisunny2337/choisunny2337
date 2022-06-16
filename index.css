@@ -316,9 +316,9 @@ a:hover {
 @media screen and (max-width: 375px) {
     #mainmenu {
         text-align: left;
-        font-size: 4px;
+        font-size: 7px;
         padding: 8px;
-        width: 10%;
+        width: 15%;
         left: -3.1%;
     } 
     #item2sub {
@@ -327,7 +327,7 @@ a:hover {
         transition: 0.5s;
     }
     #item2:hover > #item2sub {
-        height: 220px;
+        height: 190px;
     }
     .submenu {
         list-style: none;
@@ -350,7 +350,7 @@ a:hover {
 }
 @media screen and (max-width: 375px) {
     main {
-        top: 10%;
+        top: 5%;
         margin-bottom: 60%;
     
     } 
@@ -370,7 +370,7 @@ a:hover {
 
 @media screen and (max-width: 375px) {
     .item-container {
-        width: 100%;
+        width: 80%;
         padding-top: 100%;
     } 
     #social {
