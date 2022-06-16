@@ -313,7 +313,7 @@ a:hover {
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 200px) {
     #mainmenu {
         text-align: left;
         font-size: 7px;
@@ -348,7 +348,7 @@ a:hover {
     
     } 
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 200px) {
     main {
         top: 5%;
         margin-bottom: 60%;
@@ -368,7 +368,7 @@ a:hover {
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 200px) {
     .item-container {
         width: 80%;
         padding-top: 100%;
