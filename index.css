@@ -315,7 +315,7 @@ a:hover {
 @media screen and (max-width: 520px) {
     #mainmenu {
         text-align: left;
-        font-size: 4px;
+        font-size: 10px;
         padding: 8px;
         width: 10%;
         left: -3.1%;
@@ -371,5 +371,8 @@ a:hover {
         width: 100%;
         padding-top: 100%;
     } 
+    #social {
+        display: none;
+    }
 } 
 
