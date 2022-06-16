@@ -32,10 +32,80 @@ footer {
     position: relative;
     width: 100%;
     margin: -30% auto;
-    height: 30%;
-    background-color: aqua;
+    height: 20%;
 }
 
+@keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+}
+
+html, p {
+    margin: 0;
+    padding: 0;
+}
+
+#ani {
+    /* flexbox를 사용하여 박스 안에 들어 있는 아이템을 가운데 정렬 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+    top: 70px;
+    left: 70px;
+    width: 200px;
+    height: 200px;
+
+    animation-name: rotate;
+    animation-duration: 16s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-play-state: running;
+}
+#ani > img{width: 300%;}
+
+#ani1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+    top: 70px;
+    left: 70px;
+    width: 200px;
+    height: 200px;
+
+    animation-name: rotate;
+    animation-duration: 13s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-play-state: running;
+}
+#ani1 > img{width: 150%;}
+
+#ani2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+    top: 700px;
+    left: 1300px;
+    width: 200px;
+    height: 200px;
+
+    animation-name: rotate;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-play-state: running;
+}
+#ani2 > img{width: 500%;}
 
 
 body {
@@ -66,11 +136,11 @@ a:hover {
     color: #e4ffeed7;
 }
 #mainmenu {
-    position: fixed;
+    position: absolute;
     list-style: none;
     text-align: center;
-    width: 100%;
-    top: 13%;
+    width: 50%;
+    top: 45%;
     left: 36.8%;
     color: #254d33d7;
 }
@@ -88,7 +158,7 @@ a:hover {
     transition: 0.5s;
 }
 #item2:hover > #item2sub {
-    height: 245px;
+    height: 275px;
 }
 .submenu {
     list-style: none;
@@ -102,7 +172,7 @@ a:hover {
 }
 
 #egg{
-    position: fixed;
+    position: absolute;
     text-align: center;
     width: 100% ;
     top: 2%;
@@ -207,21 +277,12 @@ a:hover {
     transform: translate(-50%, -50%);
     text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#footer{
+    position: static;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 1%;
+}
 
 
 @media screen and (max-width: 960px) {
@@ -238,7 +299,7 @@ a:hover {
         transition: 0.5s;
     }
     #item2:hover > #item2sub {
-        height: 200px;
+        height: 220px;
     }
     .submenu {
         list-style: none;
@@ -255,6 +316,7 @@ a:hover {
 @media screen and (max-width: 960px) {
     main {
         top: 10%;
+        margin-bottom: 60%;
     
     } 
 }
