@@ -215,11 +215,11 @@ a:hover {
 @media screen and (max-width: 960px) {
     #mainmenu {
         text-align: center;
-        font-size: 4px;
+        font-size: 11px;
         padding: 8px;
-        width: 50%;
-        top: 70%;
-        left: 25%;
+        width: 80%;
+        top: 45%;
+        left: 24%;
     } 
     #item2sub {
         overflow: hidden;
@@ -227,7 +227,7 @@ a:hover {
         transition: 0.5s;
     }
     #item2:hover > #item2sub {
-        height: 210px;
+        height: 225px;
     }
     .submenu {
         list-style: none;
@@ -240,14 +240,14 @@ a:hover {
         padding: 5px 0px;
     }
 }
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 380px) {
     #mainmenu {
         text-align: center;
-        font-size: 4px;
+        font-size: 11px;
         padding: 8px;
-        width: 50%;
-        top: 70%;
-        left: 25%;
+        width: 80%;
+        top: 45%;
+        left: 15%;
     } 
     #item2sub {
         overflow: hidden;
@@ -255,7 +255,7 @@ a:hover {
         transition: 0.5s;
     }
     #item2:hover > #item2sub {
-        height: 210px;
+        height: 225px;
     }
     .submenu {
         list-style: none;
@@ -271,41 +271,19 @@ a:hover {
 
 
 
-
 @media screen and (max-width: 960px) {
     main {
-        top: -7%;
-        margin: 0% auto 70%;
-    } 
+        top: 10%;
+        margin-bottom: 60%;
+    }
 }
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 380px) {
     main {
-        top: -7%;
-        margin: 0% auto 70%;
-    } 
+        top: 10%;
+        margin-bottom: 60%;
+}
 }
 
-
-@media screen and (max-width: 960px) {
-    #img-grid > img{
-        width: 70%;
-        left: -12%;
-        margin-bottom: 80px;
-} 
-    #social {
-        display: none;
-    }
-}
-@media screen and (max-width: 960px) {
-    #img-grid > img{
-        width: 70%;
-        left: -12%;
-        margin-bottom: 80px;
-} 
-    #social {
-        display: none;
-    }
-}
 @media screen and (max-width: 960px) {
     #ani1{ 
         top: -20px;
@@ -327,7 +305,7 @@ a:hover {
     }
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 380px) {
     #ani1{ 
         top: -20px;
         left: -20px;
@@ -341,9 +319,9 @@ a:hover {
         height: 150px; 
     }
     #ani3{
-        top: 700px;
+        top: 800px;
         left: 600px;
         width: 170px;
         height: 170px;
     }
-} 
+}
