@@ -361,11 +361,9 @@ a:hover {
     
     }
     #title {
-        position: relative;
-        text-align: center;
         top: 30%;
         width: 50%;
-        font-size: 1em;
+        font-size: 2em;
     }  
 }
 
