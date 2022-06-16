@@ -47,7 +47,7 @@ html, p {
     padding: 0;
 }
 
-#ani {
+#ani1 {
     /* flexbox를 사용하여 박스 안에 들어 있는 아이템을 가운데 정렬 */
     display: flex;
     justify-content: center;
@@ -65,9 +65,9 @@ html, p {
     animation-timing-function: linear;
     animation-play-state: running;
 }
-#ani > img{width: 300%;}
+#ani1 > img{width: 300%;}
 
-#ani1 {
+#ani2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -84,9 +84,9 @@ html, p {
     animation-timing-function: linear;
     animation-play-state: running;
 }
-#ani1 > img{width: 150%;}
+#ani2 > img{width: 150%;}
 
-#ani2 {
+#ani3 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -103,7 +103,7 @@ html, p {
     animation-timing-function: linear;
     animation-play-state: running;
 }
-#ani2 > img{width: 500%;}
+#ani3 > img{width: 500%;}
 
 body {
     margin: 0; padding: 0;
@@ -291,18 +291,59 @@ a:hover {
         width: 70%;
         left: -12%;
         margin-bottom: 80px;
-}
-    } 
+} 
     #social {
         display: none;
     }
+}
 @media screen and (max-width: 960px) {
     #img-grid > img{
         width: 70%;
         left: -12%;
         margin-bottom: 80px;
-}
-    } 
+} 
     #social {
         display: none;
     }
+}
+@media screen and (max-width: 960px) {
+    #ani1{ 
+        top: -20px;
+        left: -20px;
+        width: 150px;
+        height: 150px;  
+    }
+    #ani2{
+        top: -20px;
+        left: -20px;
+        width: 150px;
+        height: 150px; 
+    }
+    #ani3{
+        top: 700px;
+        left: 600px;
+        width: 170px;
+        height: 170px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    #ani1{ 
+        top: -20px;
+        left: -20px;
+        width: 150px;
+        height: 150px;  
+    }
+    #ani2{
+        top: -20px;
+        left: -20px;
+        width: 150px;
+        height: 150px; 
+    }
+    #ani3{
+        top: 700px;
+        left: 600px;
+        width: 170px;
+        height: 170px;
+    }
+} 
