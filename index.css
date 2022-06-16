@@ -49,8 +49,7 @@ html, p {
     padding: 0;
 }
 
-#ani {
-    /* flexbox를 사용하여 박스 안에 들어 있는 아이템을 가운데 정렬 */
+#ani1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -67,9 +66,9 @@ html, p {
     animation-timing-function: linear;
     animation-play-state: running;
 }
-#ani > img{width: 300%;}
+#ani1 > img{width: 300%;}
 
-#ani1 {
+#ani2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -86,9 +85,9 @@ html, p {
     animation-timing-function: linear;
     animation-play-state: running;
 }
-#ani1 > img{width: 150%;}
+#ani2 > img{width: 150%;}
 
-#ani2 {
+#ani3 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -105,7 +104,7 @@ html, p {
     animation-timing-function: linear;
     animation-play-state: running;
 }
-#ani2 > img{width: 500%;}
+#ani3 > img{width: 500%;}
 
 
 body {
@@ -316,7 +315,7 @@ a:hover {
 @media screen and (max-width: 520px) {
     #mainmenu {
         text-align: center;
-        font-size: 4px;
+        font-size: 7px;
         padding: 8px;
         width: 50%;
         top: 45%;
@@ -353,7 +352,7 @@ a:hover {
     #title {
         top: 30%;
         width: 95%;
-        font-size: 3em;
+        font-size: 2em;
     
     } 
 }
@@ -367,7 +366,7 @@ a:hover {
         top: 30%;
         width: 50%;
         left: 14.3%;
-        font-size: 3.2em;
+        font-size: 2em;
     }  
 }
 
@@ -392,3 +391,44 @@ a:hover {
     }
 } 
 
+@media screen and (max-width: 960px) {
+    #ani1{ 
+        top: -20px;
+        left: -20px;
+        width: 150px;
+        height: 150px;  
+    }
+    #ani2{
+        top: -20px;
+        left: -20px;
+        width: 150px;
+        height: 150px; 
+    }
+    #ani3{
+        top: 700px;
+        left: 600px;
+        width: 170px;
+        height: 170px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    #ani1{ 
+        top: -20px;
+        left: -20px;
+        width: 150px;
+        height: 150px;  
+    }
+    #ani2{
+        top: -20px;
+        left: -20px;
+        width: 150px;
+        height: 150px; 
+    }
+    #ani3{
+        top: 700px;
+        left: 600px;
+        width: 170px;
+        height: 170px;
+    }
+} 
