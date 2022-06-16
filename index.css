@@ -287,9 +287,9 @@ a:hover {
 @media screen and (max-width: 960px) {
     #mainmenu {
         text-align: center;
-        font-size: 7px;
+        font-size: 10px;
         padding: 8px;
-        width: 50%;
+        width: 80%;
         top: 70%;
         left: 25%;
     } 
@@ -315,9 +315,9 @@ a:hover {
 @media screen and (max-width: 520px) {
     #mainmenu {
         text-align: center;
-        font-size: 7px;
+        font-size: 10px;
         padding: 8px;
-        width: 50%;
+        width: 80%;
         top: 45%;
         left: 25%;
     } 
@@ -352,7 +352,7 @@ a:hover {
     #title {
         top: 30%;
         width: 95%;
-        font-size: 2em;
+        font-size: 2.5em;
     
     } 
 }
@@ -366,7 +366,7 @@ a:hover {
         top: 30%;
         width: 50%;
         left: 14.3%;
-        font-size: 2em;
+        font-size: 2.5em;
     }  
 }
 
