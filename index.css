@@ -291,7 +291,7 @@ a:hover {
         padding: 8px;
         width: 80%;
         top: 45%;
-        left: 23%;
+        left: 24%;
     } 
     #item2sub {
         overflow: hidden;
@@ -319,7 +319,7 @@ a:hover {
         padding: 8px;
         width: 80%;
         top: 45%;
-        left: 14%;
+        left: 15%;
     } 
     #item2sub {
         overflow: hidden;
@@ -327,7 +327,7 @@ a:hover {
         transition: 0.5s;
     }
     #item2:hover > #item2sub {
-        height: 210px;
+        height: 225px;
     }
     .submenu {
         list-style: none;
@@ -347,14 +347,12 @@ a:hover {
     main {
         top: 10%;
         margin-bottom: 60%;
-    
     } 
     #title {
         top: 30%;
         width: 95%;
         left: 3%;
         font-size: 3.3em;
-    
     } 
 }
 @media screen and (max-width: 370px) {
@@ -374,8 +372,8 @@ a:hover {
 
 @media screen and (max-width: 960px) {
     .item-container {
-        width: 50%;
-        padding-top: 50%;
+        width: 100%;
+        padding-top: 100%;
     } 
     #social {
         display: none;
