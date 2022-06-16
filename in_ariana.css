@@ -33,6 +33,78 @@ footer {
     height: 20%;
 }
 
+@keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+}
+
+html, p {
+    margin: 0;
+    padding: 0;
+}
+
+#ani {
+    /* flexbox를 사용하여 박스 안에 들어 있는 아이템을 가운데 정렬 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+    top: 70px;
+    left: 70px;
+    width: 200px;
+    height: 200px;
+
+    animation-name: rotate;
+    animation-duration: 16s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-play-state: running;
+}
+#ani > img{width: 300%;}
+
+#ani1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+    top: 70px;
+    left: 70px;
+    width: 200px;
+    height: 200px;
+
+    animation-name: rotate;
+    animation-duration: 13s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-play-state: running;
+}
+#ani1 > img{width: 150%;}
+
+#ani2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+    top: 700px;
+    left: 1300px;
+    width: 200px;
+    height: 200px;
+
+    animation-name: rotate;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-play-state: running;
+}
+#ani2 > img{width: 500%;}
+
 body {
     margin: 0; padding: 0;
     font-family: 'SBAggroB';
@@ -136,11 +208,39 @@ a:hover {
     position: static;
     text-align: center;
     font-size: 20px;
-    padding-top: 3%;
+    padding-bottom: 1%;
 }
 
 
 @media screen and (max-width: 960px) {
+    #mainmenu {
+        text-align: center;
+        font-size: 4px;
+        padding: 8px;
+        width: 50%;
+        top: 70%;
+        left: 25%;
+    } 
+    #item2sub {
+        overflow: hidden;
+        height: 0px;
+        transition: 0.5s;
+    }
+    #item2:hover > #item2sub {
+        height: 210px;
+    }
+    .submenu {
+        list-style: none;
+        margin: 0;
+        padding:10px;
+    }
+    .submenu > li{
+        list-style: none;
+        margin: 0;
+        padding: 5px 0px;
+    }
+}
+@media screen and (max-width: 520px) {
     #mainmenu {
         text-align: center;
         font-size: 4px;
@@ -178,8 +278,24 @@ a:hover {
         margin: 0% auto 70%;
     } 
 }
+@media screen and (max-width: 520px) {
+    main {
+        top: -7%;
+        margin: 0% auto 70%;
+    } 
+}
 
 
+@media screen and (max-width: 960px) {
+    #img-grid > img{
+        width: 70%;
+        left: -12%;
+        margin-bottom: 80px;
+}
+    } 
+    #social {
+        display: none;
+    }
 @media screen and (max-width: 960px) {
     #img-grid > img{
         width: 70%;
