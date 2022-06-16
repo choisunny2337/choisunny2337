@@ -143,12 +143,11 @@ a:hover {
 
 @media screen and (max-width: 960px) {
     #mainmenu {
-        text-align: center;
+        text-align: left;
         font-size: 4px;
         padding: 8px;
-        width: 50%;
-        top: 70%;
-        left: 25%;
+        width: 10%;
+        left: -3.1%;
     } 
     #item2sub {
         overflow: hidden;
@@ -156,7 +155,7 @@ a:hover {
         transition: 0.5s;
     }
     #item2:hover > #item2sub {
-        height: 210px;
+        height: 220px;
     }
     .submenu {
         list-style: none;
@@ -169,21 +168,68 @@ a:hover {
         padding: 5px 0px;
     }
 }
+@media screen and (max-width: 520px) {
+    #mainmenu {
+        text-align: left;
+        font-size: 10px;
+        padding: 8px;
+        width: 10%;
+        left: -3.1%;
+    } 
+    #item2sub {
+        overflow: hidden;
+        height: 0px;
+        transition: 0.5s;
+    }
+    #item2:hover > #item2sub {
+        height: 190px;
+    } 
+    .submenu {
+        list-style: none;
+        margin: 0;
+        padding:10px;
+    }
+    .submenu > li{
+        list-style: none;
+        margin: 0;
+        padding: 5px 0px;
+    }
+}
+
+
+
 @media screen and (max-width: 960px) {
     main {
-        top: -7%;
-        margin: 0% auto 70%;
+        top: 10%;
+        margin-bottom: 60%;
+    
+    }  
+}
+@media screen and (max-width: 520px) {
+    main {
+        top: 10%;
+        margin-bottom: 60%;
+    
     } 
 }
 
 
-@media screen and (max-width: 960px) {
-    #img-grid > img{
-        width: 70%;
-        left: 7%;
-        margin-bottom: 80px;
-}
+  @media screen and (max-width: 960px) {
+    .item-container {
+        width: 50%;
+        padding-top: 50%;
     } 
     #social {
         display: none;
     }
+}
+
+@media screen and (max-width: 520px) {
+    .item-container {
+        width: 100%;
+        padding-top: 100%;
+    } 
+    #social {
+        display: none;
+    }
+} 
