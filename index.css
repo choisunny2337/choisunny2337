@@ -313,6 +313,34 @@ a:hover {
     }
 }
 
+@media screen and (max-width: 375px) {
+    #mainmenu {
+        text-align: left;
+        font-size: 4px;
+        padding: 8px;
+        width: 10%;
+        left: -3.1%;
+    } 
+    #item2sub {
+        overflow: hidden;
+        height: 0px;
+        transition: 0.5s;
+    }
+    #item2:hover > #item2sub {
+        height: 220px;
+    }
+    .submenu {
+        list-style: none;
+        margin: 0;
+        padding:10px;
+    }
+    .submenu > li{
+        list-style: none;
+        margin: 0;
+        padding: 5px 0px;
+    }
+}
+
 @media screen and (max-width: 960px) {
     main {
         top: 10%;
@@ -320,6 +348,14 @@ a:hover {
     
     } 
 }
+@media screen and (max-width: 375px) {
+    main {
+        top: 10%;
+        margin-bottom: 60%;
+    
+    } 
+}
+
 
 
   @media screen and (max-width: 960px) {
@@ -332,10 +368,13 @@ a:hover {
     }
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 375px) {
     .item-container {
         width: 100%;
         padding-top: 100%;
     } 
+    #social {
+        display: none;
+    }
 } 
 
