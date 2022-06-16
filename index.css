@@ -287,11 +287,12 @@ a:hover {
 
 @media screen and (max-width: 960px) {
     #mainmenu {
-        text-align: left;
+        text-align: center;
         font-size: 4px;
         padding: 8px;
-        width: 10%;
-        left: -3.1%;
+        width: 50%;
+        top: 70%;
+        left: 25%;
     } 
     #item2sub {
         overflow: hidden;
@@ -299,7 +300,7 @@ a:hover {
         transition: 0.5s;
     }
     #item2:hover > #item2sub {
-        height: 220px;
+        height: 210px;
     }
     .submenu {
         list-style: none;
@@ -314,11 +315,12 @@ a:hover {
 }
 @media screen and (max-width: 520px) {
     #mainmenu {
-        text-align: left;
-        font-size: 10px;
+        text-align: center;
+        font-size: 4px;
         padding: 8px;
-        width: 10%;
-        left: -3.1%;
+        width: 50%;
+        top: 45%;
+        left: 25%;
     } 
     #item2sub {
         overflow: hidden;
@@ -326,8 +328,8 @@ a:hover {
         transition: 0.5s;
     }
     #item2:hover > #item2sub {
-        height: 240px;
-    } 
+        height: 210px;
+    }
     .submenu {
         list-style: none;
         margin: 0;
@@ -361,15 +363,15 @@ a:hover {
     
     }
     #title {
-        text-align: center;
         top: 30%;
         width: 50%;
+        left: 14.3%;
         font-size: 3.2em;
     }  
 }
 
 
-  @media screen and (max-width: 960px) {
+@media screen and (max-width: 960px) {
     .item-container {
         width: 50%;
         padding-top: 50%;
