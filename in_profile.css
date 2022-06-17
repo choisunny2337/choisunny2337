@@ -187,19 +187,19 @@ a:hover {
     z-index: -1000;
 }
 #img-grid {
-    display: inline;
+    display: flex;
     flex-wrap: wrap;
     position: relative;
     text-align: center;
-    width: 80%;
-    left: 11.8%;
-    margin-left: 80px;
+    width: 40%;
+    left: 34%;
+    margin-bottom: 45px;
 }
 
 #img-grid > img {
     position: relative;
     top: 290px;
-    width: 30%;
+    width: 80%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     z-index: 3;
 }
@@ -218,7 +218,7 @@ a:hover {
         font-size: 11px;
         padding: 8px;
         width: 80%;
-        top: 45%;
+        top: 70%;
         left: 24%;
     } 
     #item2sub {
@@ -273,16 +273,51 @@ a:hover {
 
 @media screen and (max-width: 960px) {
     main {
-        top: 10%;
-        margin-bottom: 60%;
+        top: -5%;
+        margin-bottom: 70%;
+    } 
+    #img-grid {
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        text-align: center;
+        width: 80%;
+        left: 18%;
+        margin-bottom: 20px;
+    }
+    
+    #img-grid > img {
+        position: relative;
+        top: 290px;
+        width: 80%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        z-index: 3;
     }
 }
 @media screen and (max-width: 380px) {
     main {
-        top: 10%;
-        margin-bottom: 60%;
+        top: -5%;
+        margin-bottom: 70%;
+    } 
+    #img-grid {
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        text-align: center;
+        width: 80%;
+        left: 18%;
+        margin-bottom: 20px;
+    }
+    
+    #img-grid > img {
+        position: relative;
+        top: 290px;
+        width: 80%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        z-index: 3;
+    }
 }
-}
+
 
 @media screen and (max-width: 960px) {
     #ani1{ 
@@ -319,9 +354,9 @@ a:hover {
         height: 150px; 
     }
     #ani3{
-        top: 800px;
+        top: 900px;
         left: 600px;
         width: 170px;
         height: 170px;
     }
-}
+} 
